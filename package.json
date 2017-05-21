@@ -1,5 +1,5 @@
 {
-  "name": "starwars-names",
+  "name": "starwars-names-parvezk",
   "version": "1.0.0",
   "description": "Get random Star War names",
   "main": "src/index.js",
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/parvezk/starwars-names#readme",
   "dependencies": {
     "unique-random-array": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }
