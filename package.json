@@ -1,0 +1,27 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Star War names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parvezk/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Parvez Kose <flamboyanz@gmail.com> (http://www.creativitykills.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parvezk/starwars-names/issues"
+  },
+  "homepage": "https://github.com/parvezk/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
+}
