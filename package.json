@@ -1,6 +1,6 @@
 {
   "name": "starwars-names-parvezk",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Get random Star War names",
   "main": "src/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "random",
+    "star-wars",
     "star",
     "wars",
     "sci-fi"
