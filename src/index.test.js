@@ -37,12 +37,12 @@ describe('random', function() {
         expect(starWars.all).to.not.include(randomItem);
     });*/
 
-    it('should return an array of random items if passed a number', function(){
+    it('should return an array of random items if passed some number', function(){
         var randomItems = starWars.random(3);
         expect(randomItems).to.have.length(3);
         randomItems.forEach(function (item) {
             expect(starWars.all).to.include(item);
-        })
+        });
     });
 })
 
