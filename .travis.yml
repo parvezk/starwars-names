@@ -8,12 +8,11 @@ node_js:
   - '7'
   - '6'
   - '4'
+before install:
+  - npm i -g npm@^2.0.0
 before_script:
   - npm prune
-  script
+script:
   - npm run test:single
 after_success:
   - npm run semantic-release
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
