@@ -4,7 +4,7 @@
   "description": "Get random Star War names",
   "main": "src/index.js",
   "scripts": {
-    "commit": "git-cz",
+    "commit": "path",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "mocha src/index.test.js -w",
@@ -42,10 +42,11 @@
     "mocha": "^3.4.2",
     "semantic-release": "^6.3.6"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  },
+
   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
       "pre-commit": "npm run test:single && npm run check-coverage"
     }
