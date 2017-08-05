@@ -1,5 +1,3 @@
-// Travis Build Config
-
 language: node_js
 cache:
   directories:
