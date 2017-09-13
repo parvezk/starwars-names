@@ -31,8 +31,10 @@
     "star-wars",
     "star",
     "wars",
-    "sci-fi"
-  ],
+    "sci-fi",
+    "science",
+    "fiction"
+    ],
   "files": [
     "dist",
     "README.md"
