@@ -1,3 +1,7 @@
+//
+// Starwars-names module
+//
+
 import uniqueRandomArray from 'unique-random-array';
 import starWarsNames from './starwars-names.json';
 
